@@ -45,7 +45,7 @@ const Home = () => {
     //     }, 1000);
     // }, []);
 
-    const {data: blogs, isPending, errormsg} = useFetch('http://localhost:8000/blogs');
+    const {data: blogs, isPending, errormsg} = useFetch('https://basic-react-blog.vercel.app/blogs');
      
        
     return (
